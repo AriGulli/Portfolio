@@ -94,7 +94,7 @@ nav {
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.7);
     overflow: hidden;
-    max-height: 1;
+    max-height: -500;
     transition: max-height 0.3s ease;
     z-index: 1001;
   }
