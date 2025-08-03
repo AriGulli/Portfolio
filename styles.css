@@ -86,17 +86,17 @@ nav {
   .links {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     background: #1E1E1E; /* dark background */
     position: absolute;
-    top: 50%;
+    top: 100%;
     left: 0;
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.7);
     overflow: hidden;
-    max-height: 0;
-    transition: max-height 0.3s ease;
-    z-index: 500;
+    max-height: -20;
+    transition: max-height 0.9s ease;
+    z-index: 1001;
   }
   .links.active {
     max-height: 500px; /* enough height to show all links */
