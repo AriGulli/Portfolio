@@ -65,7 +65,7 @@ nav {
 /* Navigation links */
 .links {
   display: flex;
-  gap: 1.3rem;
+  gap: 1.5rem;
 }
 .links a {
   text-decoration: none;
@@ -82,22 +82,21 @@ nav {
 @media (max-width: 768px) {
   .hamburger {
     display: block;
-    height: 100;
   }
   .links {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     background: #1E1E1E; /* dark background */
     position: absolute;
-    top: 100%;
+    top: 50%;
     left: 0;
     padding: 1rem;
     box-shadow: 0 2px 8px rgba(0,0,0,0.7);
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.3s ease;
-    z-index: 1001;
+    z-index: 500;
   }
   .links.active {
     max-height: 500px; /* enough height to show all links */
