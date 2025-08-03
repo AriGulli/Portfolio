@@ -79,9 +79,10 @@ nav {
 }
 
 /* Mobile styles */
-@media (max-width: 748px) {
+@media (max-width: 768px) {
   .hamburger {
     display: block;
+    height: 100;
   }
   .links {
     display: flex;
