@@ -65,7 +65,7 @@ nav {
 /* Navigation links */
 .links {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.3rem;
 }
 .links a {
   text-decoration: none;
