@@ -80,36 +80,49 @@ nav {
 
 /* Mobile styles */
 @media (max-width: 768px) {
+  .navbar {
+    padding: 0.3rem 1rem; /* Reduce vertical space */
+    height: 50px;          /* Set a smaller height */
+  }
+
   .hamburger {
     display: block;
+    font-size: 1.2rem;     /* Optional: shrink menu icon */
+    padding: 0.2rem;
   }
+
   .links {
     display: flex;
     flex-direction: column;
     width: 100%;
-    background: #1E1E1E; /* dark background */
+    background: #1E1E1E;
     position: absolute;
     top: 100%;
     left: 0;
-    padding: 1rem;
+    padding: 0.5rem 1rem; /* reduce padding here too */
     box-shadow: 0 2px 8px rgba(0,0,0,0.7);
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.3s ease;
     z-index: 1001;
   }
+
   .links.active {
-    max-height: 500px; /* enough height to show all links */
+    max-height: 500px;
   }
+
   .links a {
-    padding: 0.5rem 0;
+    padding: 0.3rem 0;
     color: #E0E0E0;
+    font-size: 0.9rem; /* Slightly smaller text */
   }
+
   .links a:hover,
   .links a.active {
     color: #00BCD4;
   }
 }
+
 
 /* Your other existing styles below (unchanged) */
 main {
