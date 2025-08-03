@@ -95,7 +95,7 @@ nav {
     box-shadow: 0 2px 8px rgba(0,0,0,0.7);
     overflow: hidden;
     max-height: 0;
-    transition: max-height 0.9s ease;
+    transition: max-height 0.3s ease;
     z-index: 1001;
   }
   .links.active {
